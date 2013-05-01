@@ -1,0 +1,13 @@
+<h4 class="pull-left" style="margin-left:10px;line-height:5pt">{{title}}</h4>
+<span class="pull-right" style="margin-right:10px">
+	<button class="previous">trước</button>
+	<strong>{{page}}<strong>
+	<button class="next">sau</button></span>
+<div style="clear:both"></div>
+<ol class="thumbnails">
+	{{#data}}
+	<li data-fid="{{uid}}">
+		<a title="{{name}}" href="http://facebook.com/profile.php?id={{uid}}" target="_blank"><img src="{{pic_square}}" title="{{name}} - {{birthday_date}}" alt="{{name}}"></a>
+	</li>
+	{{/data}}
+</ol>
